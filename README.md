@@ -8,4 +8,4 @@
         <ul>LinkedIn: <strong>linkedin.com/in/jvcfarias</strong></ul>
 </p>
 
-<h3>There has been made an early attempt to do so with docopt lib, but we have found Pandas to be the most effective lib for our present purposes. Suggestions on how to do update with docopts lib are accepted.</h3>
+<p>There has been made an early attempt to do so with docopt lib, but we have found Pandas to be the most effective lib for our present purposes. Suggestions on how to do update with docopts lib are accepted.<p>
