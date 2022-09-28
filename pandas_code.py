@@ -29,3 +29,7 @@ old_file.loc[old_file['SEO Title'] == seo_file['SEO Title'], 'Report'] = 'Otimiz
 old_file.loc[old_file['SEO Title'] != seo_file['SEO Title'], 'Report'] = 'Não alterado'  
 
 print(old_file.Report.str.count("Otimizado").sum())
+
+report = pd.DataFrame(old_file, columns = ['Report'])
+
+report.to_csv('report.csv')
